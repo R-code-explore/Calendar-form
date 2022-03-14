@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Calender</title>
+</head>
+<body>
+      <div class="calendar">
+        <div class="month">
+          <i class="fas fa-angle-left prev"></i>
+          <div class="date">
+            <h1></h1>
+            <p></p>
+          </div>
+          <i class="fas fa-angle-right next"></i>
+        </div>
+        <div class="weekdays">
+          <div>Dim</div>
+          <div>Lun</div>
+          <div>Mar</div>
+          <div>Mer</div>
+          <div>Jeu</div>
+          <div>Ven</div>
+          <div>Sam</div>
+        </div>
+        
+        <div class="days">
+
+        </div>
+
+        <form class="form" action="" method="post">
+
+              <div class="date-info"></div>    
+              <button class="close-form">X</button>
+
+              <label for="name">Votre nom et prénom</label>
+              <input type="text" id="name" required>
+              
+              <br>
+
+              <label for="subject">Le sujet ou la raison ( exemple: anxiété, mal être )</label>
+              <input type="text" id="subject">
+
+              <br>
+
+              <label for="tel">Votre numéro de téléphone</label>
+              <input type="tel">
+
+              <br>
+
+              <button type="submit">Procédez au paiement</button>
+
+            </form>
+      
+      </div>
+
+    <script src="script/calendar.js"></script>
+    <script type="module" src="script/main.js"></script>
+  </body>
+</html>
