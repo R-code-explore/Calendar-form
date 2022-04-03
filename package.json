@@ -1,0 +1,22 @@
+{
+  "name": "test_calendar",
+  "description": "En: This will be a calendar with the possibility of making an appointment.",
+  "version": "1.0.0",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-code-explore/Calendar-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-code-explore/Calendar-form/issues"
+  },
+  "homepage": "https://github.com/R-code-explore/Calendar-form#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}

@@ -35,6 +35,9 @@ function load(){
         if(i > paddingDays){
             daySquare.innerText = i - paddingDays
 
+            //there's click events
+            //there's click events
+
             daySquare.addEventListener('click', () => console.log(daySquare.innerHTML))
         } else {
             daySquare.classList.add('padding')
